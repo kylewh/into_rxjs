@@ -241,7 +241,7 @@ console.log(disposeable);
                     |                       |                       |                    |
                     |                       |                       |                    |
   received    outmost observer.onNext   e.pageX > 40           e.pageX + 'px'     console.log(x)
-                                      
+                    
                                         testFunction           projectionFunc     outmost observe.next
   
   how to apply?                    if (testFunc(x)) {     ->  observer         -> the same as received
