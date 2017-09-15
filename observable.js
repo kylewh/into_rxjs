@@ -240,7 +240,7 @@ console.log(disposeable);
                   handler                 filter                   map               forEach
                     |                       |                       |                    |
                     |                       |                       |                    |
-  received    outmost observer.onNext   e.pageX > 40           e.pageX + 'px'     console.log(x)
+  received    chainedResult             e.pageX > 40           e.pageX + 'px'     console.log(x)
                     
                                         testFunction           projectionFunc     outmost observe.next
   
